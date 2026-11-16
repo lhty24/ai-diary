@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>AI Diary — Settings preview</title>
+<link rel="stylesheet" href="preview.css">
+</head>
+<body>
+<div class="phone">
+  <div class="screen">
+    <div class="island"></div>
+
+    <div class="status">
+      <span>9:41</span>
+      <div class="icons">
+        <svg width="17" height="11" viewBox="0 0 17 11" fill="currentColor"><rect x="0" y="7.5" width="3" height="3.5" rx="1"/><rect x="4.5" y="5.5" width="3" height="5.5" rx="1"/><rect x="9" y="3" width="3" height="8" rx="1"/><rect x="13.5" y="0.5" width="3" height="10.5" rx="1"/></svg>
+        <svg width="16" height="11" viewBox="0 0 16 11" fill="currentColor"><path d="M8 10.5l2.2-2.6a3.4 3.4 0 0 0-4.4 0L8 10.5z"/><path d="M8 6.2c1.6 0 3 .6 4.1 1.6l1.2-1.4A8.1 8.1 0 0 0 8 4.2a8.1 8.1 0 0 0-5.3 2l1.2 1.5A6.2 6.2 0 0 1 8 6.2z" opacity=".9"/><path d="M8 1.8c2.6 0 5 1 6.8 2.6l1.1-1.3A11.2 11.2 0 0 0 8 0 11.2 11.2 0 0 0 .1 3.1l1.1 1.3A9.3 9.3 0 0 1 8 1.8z" opacity=".75"/></svg>
+        <svg width="25" height="12" viewBox="0 0 25 12" fill="none"><rect x=".5" y=".5" width="21" height="11" rx="3.2" stroke="currentColor" opacity=".4"/><rect x="2" y="2" width="17" height="8" rx="2" fill="currentColor"/><path d="M23 4v4c1-.4 1.5-1 1.5-2S24 4.4 23 4z" fill="currentColor" opacity=".5"/></svg>
+      </div>
+    </div>
+
+    <div class="nav">
+      <div class="nav-title">Settings</div>
+    </div>
+
+    <div class="content settings-content">
+      <div class="app-head">
+        <img class="app-icon" src="../../AIDiary/Assets.xcassets/AppIcon.appiconset/AppIcon.png" alt="AI Diary app icon">
+        <div>
+          <div class="app-name">AI Diary</div>
+          <div class="app-tag">A quiet place for your days.</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-label">AI assistant</div>
+        <div class="settings-card">
+          <div class="srow">
+            <span>API key</span>
+            <span class="value" style="letter-spacing:1.6px;font-size:12px">••••••••••••</span>
+          </div>
+          <div class="srow">
+            <span>Base URL</span>
+            <span class="value">https://api.openai.com/v1</span>
+          </div>
+          <div class="srow">
+            <span>Model</span>
+            <span class="value">gpt-4o-mini</span>
+          </div>
+          <div class="srow">
+            <span class="accent">Save AI settings</span>
+            <span class="check">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4.5 4.5L19 7"/></svg>
+              Saved
+            </span>
+          </div>
+          <div class="srow">
+            <span>Test connection</span>
+            <span class="check">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4.5 4.5L19 7"/></svg>
+            </span>
+          </div>
+          <div class="srow caption">Connected. gpt-4o-mini is available.</div>
+        </div>
+        <div class="footnote">The key is stored in the iOS Keychain and only sent to the base URL above.</div>
+      </div>
+
+      <div class="section">
+        <div class="section-label">Privacy</div>
+        <div class="settings-card">
+          <div class="srow privacy-row">
+            <span class="privacy-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="M9.5 12l1.8 1.8L15 10"/></svg>
+            </span>
+            <div>
+              <div class="privacy-title">Private by default</div>
+              <div class="privacy-sub">Entries stay on this device and are sent only when you run an AI action.</div>
+            </div>
+          </div>
+          <div class="srow privacy-row">
+            <span class="privacy-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="8" r="3.2"/><path d="M4.5 20c.6-3.4 2.8-5.2 5.5-5.2 1 0 2 .2 2.8.8"/><path d="M15.5 17.5l2 2 3.5-4"/></svg>
+            </span>
+            <div>
+              <div class="privacy-title">No account required</div>
+              <div class="privacy-sub">No sign-in and no analytics. Everything starts and ends here.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-label">Your data</div>
+        <div class="settings-card">
+          <div class="srow">
+            <span class="row-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3"/><path d="M8 7l4-4 4 4"/><path d="M5 12v7h14v-7"/></svg>
+            </span>
+            <span>Export all entries as Markdown</span>
+          </div>
+          <div class="srow">
+            <span class="row-icon danger">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M9 7V4.5h6V7M6.5 7l.8 13h9.4l.8-13"/><path d="M10 11v5M14 11v5"/></svg>
+            </span>
+            <span class="danger">Delete all entries</span>
+          </div>
+          <div class="srow">
+            <span>On this device</span>
+            <span class="value">12 entries · 2,480 words</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tabbar">
+      <div class="tab">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 5.8A2.8 2.8 0 0 1 7.3 3H20v16H7.3a2.8 2.8 0 0 0-2.8 2.8z"/><path d="M4.5 21.8A2.8 2.8 0 0 1 7.3 19H20v2.8H7.3a2.8 2.8 0 0 1-2.8 0z"/><path d="M8.5 7.2h7"/></svg>
+        <span>Journal</span>
+      </div>
+      <div class="tab">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="15.5" rx="3"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/></svg>
+        <span>Calendar</span>
+      </div>
+      <div class="tab active">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3.2"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06A1.7 1.7 0 0 0 15 19.4a1.7 1.7 0 0 0-1 1.55V21a2 2 0 1 1-4 0v-.09A1.7 1.7 0 0 0 9 19.4a1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.7 1.7 0 0 0 4.6 15a1.7 1.7 0 0 0-1.55-1H3a2 2 0 1 1 0-4h.09A1.7 1.7 0 0 0 4.6 9a1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.7 1.7 0 0 0 9 4.6a1.7 1.7 0 0 0 1-1.55V3a2 2 0 1 1 4 0v.09A1.7 1.7 0 0 0 15 4.6a1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.7 1.7 0 0 0 19.4 9c.24.6.8 1 1.45 1H21a2 2 0 1 1 0 4h-.09c-.65 0-1.21.4-1.45 1z"/></svg>
+        <span>Settings</span>
+      </div>
+    </div>
+
+    <div class="home"></div>
+  </div>
+</div>
+</body>
+</html>

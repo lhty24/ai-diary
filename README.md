@@ -2,6 +2,17 @@
 
 A private, warm-paper journal for iPhone and iPad. Built with SwiftUI and SwiftData, with an optional AI writing assistant that uses your own OpenAI-compatible API key.
 
+<p align="center">
+  <a href="docs/previews/journal.png"><img src="docs/previews/journal.png" width="280" alt="Journal feed with search, mood filters, daily writing prompt, and entry cards"></a>
+  <a href="docs/previews/editor.png"><img src="docs/previews/editor.png" width="280" alt="Entry editor with date, mood picker, title, tags, and writing area"></a>
+  <a href="docs/previews/ai-assist.png"><img src="docs/previews/ai-assist.png" width="280" alt="AI assist with quick actions and a streamed polish result"></a>
+</p>
+<p align="center">
+  <a href="docs/previews/calendar.png"><img src="docs/previews/calendar.png" width="280" alt="Calendar month grid with mood dots and selected day entries"></a>
+  <a href="docs/previews/settings.png"><img src="docs/previews/settings.png" width="280" alt="Settings with AI key configuration, privacy details, and data export"></a>
+</p>
+<p align="center"><em>Design previews rendered from the app's layout and warm-paper theme (sources in <code>docs/previews/</code>). They are illustrative mockups, not simulator screenshots.</em></p>
+
 ## Features
 
 - **Offline-first journal** — entries are stored locally with SwiftData; no account, sign-in, or sync required.

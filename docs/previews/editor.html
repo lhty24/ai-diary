@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>AI Diary — Editor preview</title>
+<link rel="stylesheet" href="preview.css">
+</head>
+<body>
+<div class="phone">
+  <div class="screen">
+    <div class="island"></div>
+
+    <div class="status">
+      <span>9:41</span>
+      <div class="icons">
+        <svg width="17" height="11" viewBox="0 0 17 11" fill="currentColor"><rect x="0" y="7.5" width="3" height="3.5" rx="1"/><rect x="4.5" y="5.5" width="3" height="5.5" rx="1"/><rect x="9" y="3" width="3" height="8" rx="1"/><rect x="13.5" y="0.5" width="3" height="10.5" rx="1"/></svg>
+        <svg width="16" height="11" viewBox="0 0 16 11" fill="currentColor"><path d="M8 10.5l2.2-2.6a3.4 3.4 0 0 0-4.4 0L8 10.5z"/><path d="M8 6.2c1.6 0 3 .6 4.1 1.6l1.2-1.4A8.1 8.1 0 0 0 8 4.2a8.1 8.1 0 0 0-5.3 2l1.2 1.5A6.2 6.2 0 0 1 8 6.2z" opacity=".9"/><path d="M8 1.8c2.6 0 5 1 6.8 2.6l1.1-1.3A11.2 11.2 0 0 0 8 0 11.2 11.2 0 0 0 .1 3.1l1.1 1.3A9.3 9.3 0 0 1 8 1.8z" opacity=".75"/></svg>
+        <svg width="25" height="12" viewBox="0 0 25 12" fill="none"><rect x=".5" y=".5" width="21" height="11" rx="3.2" stroke="currentColor" opacity=".4"/><rect x="2" y="2" width="17" height="8" rx="2" fill="currentColor"/><path d="M23 4v4c1-.4 1.5-1 1.5-2S24 4.4 23 4z" fill="currentColor" opacity=".5"/></svg>
+      </div>
+    </div>
+
+    <div class="nav">
+      <span class="nav-link" style="position:relative;z-index:2;font-weight:400">Cancel</span>
+      <div class="nav-title">New entry</div>
+      <div class="nav-side">
+        <span class="nav-icon">
+          <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M12 3l1.7 5.1L19 10l-5.3 1.9L12 17l-1.7-5.1L5 10l5.3-1.9z"/><path d="M19 15l.7 2.1L22 18l-2.3.8L19 21l-.7-2.2L16 18l2.3-.9z"/></svg>
+        </span>
+        <span class="nav-link" style="font-weight:600">Save</span>
+      </div>
+    </div>
+
+    <div class="content editor-content">
+      <div class="form-line">
+        <div class="label">When</div>
+        <div class="pills">
+          <div class="date-pill">Nov 17, 2026</div>
+          <div class="date-pill">9:41 PM</div>
+        </div>
+      </div>
+
+      <div>
+        <div class="label">Mood</div>
+        <div class="mood-row">
+          <div class="mood"><div class="mood-face">😄</div><div class="mood-label">Joyful</div></div>
+          <div class="mood"><div class="mood-face">🙏</div><div class="mood-label">Grateful</div></div>
+          <div class="mood selected"><div class="mood-face">😌</div><div class="mood-label">Calm</div></div>
+          <div class="mood"><div class="mood-face">😴</div><div class="mood-label">Tired</div></div>
+          <div class="mood"><div class="mood-face">😟</div><div class="mood-label">Anxious</div></div>
+          <div class="mood"><div class="mood-face">😢</div><div class="mood-label">Sad</div></div>
+        </div>
+      </div>
+
+      <div class="editor-title">The quiet before the noise</div>
+
+      <div>
+        <div class="label" style="margin-bottom:7px">Entry</div>
+        <div class="entry-sheet">
+          <div class="entry-text">
+            <p>Walked to the market before the city woke up. The air had that first-autumn edge to it, and the stalls were still half asleep under their lamps.</p>
+            <p>I bought too many persimmons and a bunch of eucalyptus for the kitchen table. No plan for either — just the pleasure of choosing something because it looked good in the morning light.</p>
+            <p>On the way home I took the long way past the park.<span class="caret"></span></p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="label" style="margin-bottom:8px">Tags</div>
+        <div class="tag-row">
+          <div class="tag">#slowness</div>
+          <div class="tag">#market</div>
+          <div class="tag">#persimmons</div>
+        </div>
+        <div class="tag-input" style="margin-top:8px">
+          <span>Add a tag and press return</span>
+          <span class="plus">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg>
+          </span>
+        </div>
+      </div>
+
+      <div class="editor-footer">84 words · Stored on this device</div>
+    </div>
+
+    <div class="home"></div>
+  </div>
+</div>
+</body>
+</html>
